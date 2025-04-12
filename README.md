@@ -1,6 +1,6 @@
 # Damn Vulnerable MCP Server Demo
 
-A simplier implementation of a Damn Vulnerable MCP Server that adds to or more numbers
+A simplier implementation of a Damn Vulnerable MCP Server that adds two or more numbers
 
 ## Overview
 The MCP Server Demo is a demonstration of excessive agency that could lead to Remote Code Execution (RCE) if the MCP were running on an external server. 🛡️
