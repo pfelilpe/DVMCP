@@ -10,6 +10,13 @@ mcp = FastMCP("DVMCP Server", "1.0.0")
 def addition(a):
     """Sum tool"""
     return eval(a) 
+
+    # What if you try as input for the LLM connected to this MCPServer:
+    #   print("Not safe, but it works")
+    # What if you try:
+    #   print(open('lol.txt','x').write())
+    # It works? what other inputs could be used to exploit this? ...
+
     
     # This is a simple example and should not be used in production due to security risks. 
     # In a real-world scenario, you should implement proper input validation and error handling.
@@ -19,12 +26,6 @@ def addition(a):
     #     return sum(numbers)       
     # except ValueError:
     #     return "Invalid input. Please provide a comma-separated list of numbers."
-
-    # What if you try as input for the LLM connected to this MCPServer:
-    #   print("Not safe, but it works")
-    # What if you try:
-    #   print(open('lol.txt','x').write())
-    # It works? what other inputs could be used to exploit this? ...
     
 
 # Add a dynamic greeting resource
