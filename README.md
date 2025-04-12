@@ -1,9 +1,9 @@
 # Damn Vulnerable MCP Server Demo
 
-A simplier implementation of a Damn Vulnerable MCP Server
+A simplier implementation of a Damn Vulnerable MCP Server that adds to or more numbers
 
 ## Overview
-The MCP Server Demo is a demonstration of excessive agency that could lead to Remote Code Execution (RCE) if the MCP were running on an external server.
+The MCP Server Demo is a demonstration of excessive agency that could lead to Remote Code Execution (RCE) if the MCP were running on an external server. 🛡️
 
 ## Features
 - 🚀 Basic MCP server implementation.
@@ -63,11 +63,13 @@ The MCP Server Demo is a demonstration of excessive agency that could lead to Re
    1+1 with addition
    ```
 
-5. Experiment with code injection to explore potential OS Injection vulnerabilities.
+5. Experiment with code injection to explore potential OS Injection vulnerabilities... 🕵️‍♂️
+
+6. You can find a safer implementation of this simpler MCP at `/safe/server.py`. 🔒
 
 ## Adding MCP to Your Python Project
 
-We recommend using `uv` to manage your Python projects.
+We recommend using `uv` to manage your Python projects. 🛠️
 
 If you haven't created a `uv`-managed project yet, initialize one:
 
@@ -112,6 +114,6 @@ uv run mcp
 ## Created by pfelilpe
 
 ## Buy Me a Coffee
-If you found this project helpful or interesting, consider buying me a coffee to support my work:
+If you found this project helpful or interesting, consider buying me a coffee to support my work: ☕️
 
 [![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/pfelilpe)
